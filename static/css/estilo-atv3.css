@@ -23,16 +23,3 @@ div {
     left: -6%;
 }
     
-    
-
-
-.div3 {
-    background-color: black;
-    position: fixed;
-    right: 0vh;
-    border-radius: 50%;
-    height: 85px;
-    width: 85px;
-    bottom: 0vh;
-  
-}
