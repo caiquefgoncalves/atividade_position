@@ -1,0 +1,21 @@
+body div{
+    width:106.6vh;
+    height:80vh;
+}
+
+
+
+
+.div1 {
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+ 
+.div2 {
+    background-color: blue;
+    position: absolute;
+    top:80vh ;
+    right: 0px;
+}
