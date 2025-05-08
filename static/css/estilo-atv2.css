@@ -1,21 +1,38 @@
-body div{
-    width:106.6vh;
-    height:80vh;
+body {
+    height: 500vh;
 }
 
-
-
+div {
+    padding: 50px 60px;
+    
+    height: auto;
+}
 
 .div1 {
     background-color: red;
-    
-    top: 0px;
-    left: 0px;
+    position: relative;
 }
- 
+
 .div2 {
-    background-color: blue;
+    background-color: rgb(13, 163, 227);
     position: absolute;
-    top:80vh ;
-    right: 0px;
+    transform: scale(0.5);
+    width: 250px;
+    top: 1vh;
+    margin: 0vh 90vh;
+    left: -5%;
+}
+    
+    
+
+
+.div3 {
+    background-color: black;
+    position: fixed;
+    right: 0vh;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    bottom: 0vh;
+  
 }
