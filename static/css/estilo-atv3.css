@@ -1,5 +1,5 @@
 body {
-    height: 500vh;
+    height: 150vh;
 }
 
 div {
@@ -11,15 +11,99 @@ div {
 .div1 {
     background-color: red;
     position: relative;
+    width: 300px;
+    height: 950px;
+    margin: 10px;
+    animation-name: piscar;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
 }
 
 .div2 {
     background-color: rgb(13, 163, 227);
     position: absolute;
     transform: scale(0.5);
-    width: 250px;
+    width: 450px;
     top: 1vh;
-    margin: 0vh 90vh;
-    left: -6%;
-}
     
+    right: 59.9%;
+}
+
+
+.div3{
+    background-color: green;
+    left: 700px;
+    width: 550px;
+    height: 80px;
+    position: absolute;
+    bottom: 400px;
+    animation-name: piscar;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+
+.div4 {
+    background-color: black;
+    left: 975px;
+    width: 275px;
+    height: 3px;
+    position: absolute;
+    bottom: 400px;
+
+}
+
+.div5 {
+    background-color: blue;
+    position: absolute;
+    left: 900px;
+    width: 350px;
+    height: 250px;
+    animation-name: piscar;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+
+.div6 {
+    background-color: black;
+    position: absolute;
+    left: 900px;
+    top: 1090px;
+    width: 200px;
+}
+
+.div7 {
+    background-color: black;
+    position: absolute;
+    top: 925px;
+    width: 450px;
+    transform: scale(0.5);
+    
+    right: 59.9%;
+}
+
+ @keyframes piscar{
+                0%{
+                    background-color: goldenrod;
+                   
+                }
+                25%{
+                    background-color: cyan;
+                }
+                50%{
+                    background-color: rosybrown;
+                   
+                }
+                100%{
+                    background-color: green;
+                   
+                }
+            }
